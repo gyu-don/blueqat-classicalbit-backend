@@ -5,7 +5,7 @@ Blueqat backend for classical bit (Only X gate, CX gate, CCX gate and measuremen
 
 ```py
 from blueqat import Circuit
-import blueqat_classical_backend
+import blueqat_classicalbit_backend
 
 print(Circuit().x[0].cx[0, 1].ccx[0, 1, 2].m[:].run_with_classical())
 ```
