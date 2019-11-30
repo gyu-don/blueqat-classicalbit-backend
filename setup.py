@@ -7,8 +7,8 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
     install_requires = list(map(str.strip, f))
 
 setuptools.setup(
-    name = "blueqat_classicalbit_backend",
-    version="0.0.1",
+    name="blueqat_classicalbit_backend",
+    version="0.0.7",
     author="gyu-don",
     author_email="takumi.kt+blueqat@gmail.com",
     description="Blueqat backend",
